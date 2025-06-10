@@ -19,4 +19,4 @@ python main.py -5 3 #This will scrape dates starting 5 days ago, up until in 3 d
 ## Docker Setup
 1. Clone the repository
 2. Run `docker-compose up -d` to create containers
-3. To fetch new data, simply rerun the vertretung-cmd container
+3. To fetch new data, simply rerun the cmd container
