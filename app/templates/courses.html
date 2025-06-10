@@ -1,0 +1,5 @@
+<option value="Alle">Alle</option>
+
+{% for item in courses %}
+	<option {% if default_course == item[0] %}selected{% endif %} value="{{item[0]}}">{{item[0]}}</option>
+{% endfor %}
