@@ -3,7 +3,7 @@ services:
     build:
       context: ./app
     ports:
-      - "8080:8000"
+      - "187:8000"
     environment:
       - DATABASE_URL=postgresql://postgres:postgres@db:5432
     depends_on:
